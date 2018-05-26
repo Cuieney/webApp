@@ -1,0 +1,166 @@
+@charset "utf-8";
+/*@import url(dll.css);*/
+/*@import url(module.css);*/
+@import url(http://www.chenghetang.com/onlinecss/onlineeditor.css);
+@import url(animate.css);
+@import url(banner.css);
+@import url(common.css);
+.clearfix:after {content:"\200B"; display:block; height:0; clear:both; }
+.clearfix { *zoom:1; }
+
+
+.chenning-content {
+	float: left;
+}
+/*banner*/
+/*.chenning-home-slider {
+	float: left;
+	overflow: hidden;
+	width:100%;
+    max-height: 600px;
+}
+.chenning-home-slider a {
+    display: block;
+}
+.chenning-home-slider img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+}*/
+
+/*产品列表*/
+.hmm-section {
+    float: left;
+    width: 100%;
+    padding: 40px 0;
+    background: #f3f5f8;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.hmm-section-news {
+    padding: 40px 0;
+    /*background: #fff;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pnews {
+    width: 100%;
+}
+.pnews ul {
+    margin: 0;
+    padding: 0;
+}
+.pnews li {
+    padding: 0 0 30px;
+    margin: 0 0 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.pnews li .pnews_l {
+    float: left;
+    /*width: 60px;*/
+    width: 10%;
+}
+.pnews li .pnews_l dl {
+    padding: 0;
+    margin: 0 0 30px;
+}
+.pnews li .pnews_l dl dt {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #3d69bc;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+}
+.pnews li .pnews_l dl dt img {
+    display: block;
+    margin: 0 auto 5px;
+}
+.pnews li .pnews_l dl dd {
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+.pnews li .pnews_c {
+    float: left;
+    /*width: 300px;*/
+    width: 40%;
+    margin: 0 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pnews li .pnews_r {
+    float: left;
+    /*width: 535px;*/
+    width: 45%;
+    text-align: left;
+}
+.pnews li .pnews_r h4 {
+    height: 30px;
+    margin-bottom: 15px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: url(../images/icon39.jpg) no-repeat left center;
+    text-indent: 40px;
+}
+.pnews li .pnews_r span {
+    overflow: hidden;
+    display: block;
+    max-height: 100px;
+}
+.pnews li .pnews_r ins {
+    float: left;
+    display: block;
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 15px;
+    border: 1px solid #333333;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.pnews li .pnews_r ins a {
+    display: block;
+    text-indent: 15px;
+    text-decoration: none;
+    background: url(../images/icon40.jpg) no-repeat right center;
+}
+.clear {
+    clear: both;
+    font-size: 1px;
+    width: 1px;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+/*扩展区*/
+.nmdef_container {
+    float: left;
+    width: 100%;
+    background-color: #f3f5f8;
+}
+#com_thenm_list {
+    float: left;
+     width: 100%; 
+}
+
+.p_n_info {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    color:#666;
+}
+.remark {
+    font-size: 16px;
+    color:#333;
+}

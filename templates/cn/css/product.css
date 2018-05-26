@@ -1,0 +1,277 @@
+@charset "utf-8";
+/*@import url(dll.css);*/
+/*@import url(module.css);*/
+@import url(http://www.chenghetang.com/onlinecss/onlineeditor.css);
+@import url(animate.css);
+@import url(banner.css);
+@import url(common.css);
+
+
+.chenning-content {
+	float: left;
+}
+/*banner*/
+/*.chenning-home-slider {
+	float: left;
+	overflow: hidden;
+	max-height: 600px;
+}*/
+/*产品列表*/
+.hmm-section {
+	float: left;
+	width: 100%;
+}
+.hmm-section-p02 {
+	padding: 0;
+}
+.group_l {
+	width: 100%;
+}
+.group_l dl {
+    width: 100%;
+    /*margin-bottom: 20px;*/
+}
+.group_l dl dt {
+    float: left;
+    width: 50%;
+    min-height: 350px;
+}
+.group_l dl dd {
+    float: left;
+    position: relative;
+    width: 50%;
+    min-height: 350px;
+    overflow: hidden;
+}
+.group_l dl dd a {
+    display: block;
+}
+.group_l dl dt .group_ltxt {
+    width: 70%;
+    margin: 5% auto 0;
+    text-align: left;
+}
+.group_l dl dt .group_ltxt h3 {
+    display: block;
+    font-size: 36px;
+    color: #013789;
+}
+.group_l dl dt .group_ltxt h4 {
+    display: block;
+    font-size: 24px;
+    color: #bfbfbf;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.group_l dl dt .group_ltxt span {
+    display: block;
+    font-size: 16px;
+    color: #575e68;
+    line-height: 30px;
+    margin-top: 35px;
+    font-weight: normal;
+}
+.group_l dl dt .group_ltxt a {
+    float: left;
+    display: block;
+    height: 37px;
+    font-size: 18px;
+    color: #1a1b1e;
+    line-height: 37px;
+    padding-right: 50px;
+    margin-top: 30px;
+    font-weight: normal;
+    background: url(http://www.chenghetang.com/templates/Images/icon13.png) no-repeat right center;
+}
+.group_l dl dd span {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    color: #FFF;
+    background: rgba(1,55,137,0.5);
+}
+.group_l dl dd span ins {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -24px;
+    margin-left: 0;
+    display: inline-block;
+    /*margin: 20% auto 0;*/
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    padding-right: 0;
+    text-decoration: none;
+    background: none;
+}
+.group_l dl dd span ins > img {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+.group_l dl dd span ins > img,.group_l dl dd span ins > em {
+    display: inline-block;
+    vertical-align: middle;
+}
+.group_l dl dd a:hover span {
+	display: block;
+}
+.group_l dl dd img {
+    /*width:100%;
+    max-height: 500px;*/
+    /*float: right;*/
+    display: block;
+    width: 100%;
+    min-height: 350px;
+    max-height: 500px;
+    margin: 0 auto;
+    max-width: inherit;
+}
+/*扩展区*/
+.nmdef_container {
+	float: left;
+	width: 100%;
+}
+.navPage.pagebar {
+    /*display: none;*/
+}
+/*产品详情页*/
+.p_container {
+    float: left;
+    padding-top: 20px;
+}
+.p_sidenav {
+    float: left;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+.p_sidenav li,.p_sidenav li.sortnavli {
+    float: left;
+    height: 69px;
+    /*margin-right: 40px;*/
+    /*padding: 0 20px;*/
+    background-color: #fff;
+}
+.p_sidenav li a,.p_sidenav li.sortnavli a {
+    display: block;
+    height: 70px;
+    padding: 0 20px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 18px;
+    color: #2c3133;
+    text-indent: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.p_sidenav li {
+    position: relative;
+}
+.p_sidenav li > ul {
+    position: absolute;
+    top: 70px;
+    /*width: 120px;*/
+    display: none;
+    z-index: 99;
+}
+.p_sidenav li > ul > li {
+    width: 100%;
+    /*height: 50px;*/
+    height: inherit;
+}
+.p_sidenav li > ul > li > a {
+    display: block;
+    /*width: 120px;*/
+    width: 100%;
+    /*height: 50px;*/
+    height: inherit;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px;
+    line-height: 26px;
+}
+.p_sidenav li a:hover,.p_sidenav li.sortnavli a:hover {
+    border-bottom: 5px solid #013789;
+    /*color: #013789;*/
+    text-decoration: none;
+}
+.p_sidenav li a.menu_on:hover,.p_sidenav li.sortnavli a.menu_on:hover {
+    border-bottom: 5px solid #013789;
+    color: #013789;
+    text-decoration: none;
+}
+.p_sidenav li > ul > li > a:hover {
+    border-bottom: 1px solid #013789;
+}
+#com_pmodule_products_list {
+    float: left;
+    width: 100%;
+}
+.txt01 {
+    position: relative;
+    width: 100%;
+    padding: 30px 7%;
+    color: #575e68;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: left;
+}
+.txt01 ins {
+    display: block;
+    position: absolute;
+}
+.txt01 ins.il {
+    left: 0;
+    top: 0;
+    width: 57px;
+    height: 49px;
+    background: url(http://www.chenghetang.com/templates/Images/icon06.png) no-repeat center center;
+    background-size: 100% auto;
+}
+.txt01 ins.ir {
+    right: 0;
+    bottom: 0;
+    width: 57px;
+    height: 49px;
+    background: url(http://www.chenghetang.com/templates/Images/icon07.png) no-repeat center center;
+    background-size: 100% auto;
+}
+.hmm-section-p01 {
+    padding: 60px 0 0;
+}
+
+.sortnavul {
+    padding: 0;
+    margin: 0;
+}
+.sidebar_l > ul > li {
+    float: left;
+    margin-right: 40px;
+    line-height: 40px;
+    text-indent: 0;
+    background: none;
+}
+.sidebar_l > ul > li a {
+    display: block;
+    color: #2c3133;
+    font-size: 18px;
+    line-height: 70px;
+    height: 70px;
+}
+.sidebar_l > ul > li:hover {
+    background: none;
+}
+.sidebar_l > ul > li:hover a {
+    border-bottom: 3px solid #013789;
+    color: #013789;
+    text-decoration: none;
+    background: none;
+}

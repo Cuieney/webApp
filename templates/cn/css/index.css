@@ -1,0 +1,542 @@
+@charset "utf-8";
+/*@import url(dll.css);*/
+/*@import url(module.css);*/
+@import url(http://www.chenghetang.com/onlinecss/onlineeditor.css);
+@import url(animate.css);
+@import url(banner.css);
+@import url(common.css);
+
+
+section {
+    padding: 30px 0px;
+    width: 100%;
+    float: left;
+}
+
+/*业务*/
+.product-section {
+    background: #1B273F url(../images/newbg01.jpg) center top no-repeat;
+}
+.product-section .row > div {
+    margin-bottom: 25px;
+}
+.chenning-project {
+    float: left;
+    width: 100%;
+    text-align: left !important;
+    background-color: #fff;
+}
+.chenning-project .chenning-project-inner {
+    width: 100%;
+    float: left;
+}
+.chenning-project-inner-products {
+    padding:3px;
+    border: 1px solid #274060; 
+    background: #1D3752 url(http://www.chenghetang.com/temlpates/Images/newb.jpg) repeat-y; 
+}
+.chenning-project figure {
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.chenning-project .chenning-project-inner figure {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.chenning-project .chenning-project-inner figure a {
+    display: block;
+    overflow: hidden;
+}
+.chenning-project .chenning-project-inner figure img {
+    display: block;
+    width: auto;
+    height: 190px;
+    margin: 0 auto;
+    z-index: 1;
+}
+.chenning-project figure img {
+    left: 0px;
+    top: 0px;
+    max-height: none !important;
+    max-width: none !important;
+    min-width: none !important;
+    min-height: none !important;
+    width: 100%;
+}
+
+.chenning-project figure figcaption {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    display: none;
+}
+.chenning-project figure figcaption {
+    padding:15px;
+}
+.colorbox {
+    font-family:'微软雅黑'; 
+    color:#fff;
+}
+.chenning-project figure figcaption, .chenning-property-1 figure figcaption, .chenning-product-1 figure figcaption, .chenning-post-preview figure figcaption, .chenning-post figure figcaption {
+    background-color: rgba(61,105,188,0.8);
+}
+.chenning-project .chenning-project-inner .chenning-project-details {
+    /*padding-right: 60px;
+    padding-left: 20px;*/
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.chenning-project .chenning-project-inner .chenning-project-details p.link {
+    font-size: 130%;
+}
+.chenning-project .chenning-project-inner .chenning-project-details p {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    line-height: 20px;
+    margin-bottom: 0px;
+
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-style: normal;
+    color: #5E6670;
+}
+.chenning-project .chenning-project-inner .chenning-project-details p.link a {
+    text-transform: capitalize;
+}
+.chenning-project .chenning-project-inner .chenning-project-details .link {
+    margin-top:10px; 
+    font-family:'微软雅黑'; 
+    color:#fff;
+}
+.chenning-project figure figcaption {
+    display: none;
+    position: absolute;
+}
+.chenning-project figure figcaption > span {
+    display: block;
+    width: 100%;
+    height: 103%;
+    overflow: hidden;
+}
+.chenning-project .chenning-project-inner .chenning-project-details .filter {
+    margin-bottom:10px; 
+    margin-top:0px; 
+    font-style:normal; 
+    color:#5E6670;
+}
+/*新闻*/
+.chenning-section-news-img {
+    padding-top:0px; 
+    padding-bottom:0px;
+    background-color: #fff;
+}
+
+/*最新动态*/
+.chenning-section-news > .row  > .col-lg-4{
+    background: #fff;
+}
+.col-lg-4 .textBox,
+.col-lg-8 .textBox {
+    padding-top:30px; 
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'微软雅黑'; 
+    color: #333; 
+}
+.chenning-post-preview {
+    width: 100%;
+    float: left;
+    margin-left: 1px;
+}
+.chenning-post-preview, .chenning-post-preview .header {
+    width: 100%;
+    float: left;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.chenning-post-preview .chenning-post-preview-inner {
+    width: 100%;
+    float: left;
+}
+.chenning-post-preview figure {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.chenning-post-preview figure img {
+    float: left;
+    width: 100%;
+}
+.chenning-post-preview .header {
+    padding-left: 0px;
+    min-height: 50px;
+    margin-bottom: 15px;
+}
+.chenning-post-preview .header a {
+    float: left;
+    line-height: 25px;
+    text-align: left;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+/*新闻中心*/
+.chenning-toggle {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+.chenning-toggle article {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+.chenning-toggle article header {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    line-height: 40px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px 30px;
+    color: #333;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition-style: linear;
+    transition-duration: 0.2s;
+}
+.chenning-toggle article header .fa-angle-double-right {
+    float: left;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    background-image: url(../images/arrow.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.chenning-toggle article .active .fa-angle-double-right {
+    background-image: url(http://www.chenghetang.com/templates/cn/images/arrow_white.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.chenning-toggle article header .txt {
+    float: left;
+    width: 50%;
+    line-height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.chenning-toggle article header .time {
+    float: left;
+    margin-left: 6px;
+    font-size: 12px;
+    color: #999;
+}
+.chenning-toggle article header.active {
+    color: #fff;
+}
+.chenning-toggle article header.active a {
+    color:#fff;
+}
+.chenning-toggle article header .fa-plus {
+    float: right;
+    width: 10px;
+    height: 40px;
+    margin-right: 0px;
+    line-height: 40px;
+    background-image: url(../images/add.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.chenning-toggle article .active .fa-plus {
+    background-image: url(http://www.chenghetang.com/templates/cn/images/add_white.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.chenning-toggle article .news_info_con {
+    float: left;
+    padding: 30px;
+    width: 100%;
+    font-size: 12px;
+    color: #333;
+    background-color: #f2f2f2;
+}
+.chenning-toggle article .news_info_con > a {
+    float: right;
+    font-family:'微软雅黑'; 
+    color:#3D69BC
+}
+/*图文扩展*/
+.chenning-section-news-img .row .col-lg-6 {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.chenning-section-news-img .row .col-lg-6 img {
+    width: 100%;
+}
+.strongEle {
+    position:absolute; 
+    left:0px; 
+    bottom:0px; 
+    display: block;
+    width:100%; 
+    height:70px; 
+    padding-top:18px; 
+    padding-left:10px;
+    
+    background-color:#000000;  
+    filter:alpha(opacity:50);
+    opacity:0.5;   
+    font-family:'微软雅黑';     
+    z-index:1;
+}
+.strongEle > strong {
+    display: block;
+    font-size:20px; 
+    color:#FFFFFF; 
+    font-weight:bold;
+}
+.strongEle > em {
+    display: block;
+    font-size:12px;
+    color:#999;
+}
+/*用人理念*/
+.chenning-section-cta2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.chenning-section-cta2 .row .col-lg-12 {
+    float: none;
+    text-align: center;
+}
+.chenning-section-cta2 .row .col-lg-12 strong,
+.chenning-section-cta2 .row .col-lg-12 span,
+.chenning-section-cta2 .row .col-lg-12 div,
+.chenning-section-cta2 .row .col-lg-12 a {
+    display: inline-block;
+    vertical-align: middle;
+}
+.chenning-section-cta2 .row .col-lg-12 strong {
+    font-size: 180%;
+    margin-right: 30px;
+    display: inline-block;
+    color: #fff;
+}
+.chenning-btn {
+    width: auto;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 0px 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    border: 0px;
+    text-transform: uppercase;
+}
+.chenning-btn-border-white {
+    color: #fff;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+}
+.chenning-btn-normal {
+    font-size: 100%;
+    line-height: 250%;
+    text-transform: uppercase;
+}
+.chenning-section-cta2 .row .col-lg-12 a:hover {
+    text-decoration: none;
+    background-color: #fff;
+}
+.chenning-section-cta2 .row .col-lg-12 a:hover .glyphicon-download {
+    color: #333;
+}
+
+
+/*扩展区一*/
+.nmf_cont {
+    float: left;
+    width: 100%;
+}
+.index_extend_one {
+    width: 100%;
+    padding: 30px 0 50px;
+}
+.title {
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: '微软雅黑';
+    color: #333;
+}
+.index_extend_one .tit {
+   padding: 10px 0;
+}
+.index_extend_one div,
+.i_u_def2 div {
+    width: 100%;
+    padding-top: 10px;
+    line-height: 150%;
+    text-align: center;
+    color: #666;
+}
+.index_extend_one div > img,
+.i_u_def2 div > img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+.index_extend_one .list  {
+    width: 100%;
+    text-align: center;
+}
+.index_extend_one .list ul {
+    display: block;
+    text-align: center;
+}
+.index_extend_one .list ul > li {
+    height: 200px;
+    margin-bottom: 5px;
+    /*float: left;*/
+    display: inline-block;
+    vertical-align: middle;
+}
+.index_extend_one .list ul > li a {
+    display: block;
+}
+.index_extend_one .list ul > li a ins {
+    display: block;
+    overflow: hidden;
+}
+.index_extend_one .list img {
+    display: block;
+    width: auto;
+    height: 145px;
+    margin: 0 auto;
+}
+/*扩展区二*/
+.move_divouter {
+    width: 100%;
+}
+.i_u_def2 {
+    width: 100%;
+}
+.i_u_def2 div {
+    line-height: 25px;
+    font-size: 18px;
+}
+/*扩展区三*/ 
+.i_u_def3 {
+    width: 100%;
+    text-align: center;
+}
+.i_u_def3 .col-lg-8 {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.i_u_def3 .col-lg-8 p,
+.i_u_def3 .col-lg-8 div {
+    width: 100%;
+    position: relative;
+}
+.i_u_def3 .col-lg-8 img,
+.i_u_def3 .col-lg-6 img {
+    display: block;
+    width: 100%;
+    height: 165px;
+}
+.i_u_def3 .col-lg-8 strong,
+.i_u_def3 .col-lg-6 span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #efefef;
+    background-color: rgba(0,0,0,0.5);
+}
+/*扩展区四*/
+.nmf_four {
+    float: left;
+    width: 100%;
+}
+.i_u_def4.col-lg-12 {
+    float: none;
+    text-align: center;
+}
+.i_u_def4 .content strong,
+.i_u_def4 .content p,
+.i_u_def4 .content span {
+    font-size: 180%;
+    margin-right: 30px;
+    display: inline-block;
+    color: #666;
+}
+.i_u_def4 .content a {
+    padding: 2px 5px;
+    border: 2px solid #666;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #666;
+    background-color: transparent;
+}
+.i_u_def4 .list li {
+    padding: 2px 0;
+    text-align: center;
+}
+.i_u_def4 .list li a {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+.i_u_def4 .list li ins {
+    float: left;
+    width: 50%;
+}
+.i_u_def4 .list li ins img {
+    width: auto;
+    height: 104px;
+}
+.i_u_def4 .list li span {
+    float: left;
+    width: 100%;
+    padding: 10px 20px 10px 40px;
+}
+
+
+
